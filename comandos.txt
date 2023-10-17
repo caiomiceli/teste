@@ -1,0 +1,39 @@
+CRIANDO UM NOVO SITE TESTE:
+(https://www.youtube.com/watch?v=EW7m2WIvFgQ)
+
+1- Criar reposiório no github
+
+
+
+2- Clonar dentro da nova pasta criada para o projeto
+o link pelo terminal usando git clone e o endereço, por exemplo:
+
+(ja dentro da pasta)> git clone https://github.com/caiomiceli/teste.git
+
+
+
+3- No visual Studio, instar o node.js:
+npm init -y
+npm install next react react-dom
+npm run dev
+
+3.a- Ajustar no arquivo "package.json" o script:
+    
+     "scripts": {
+    "dev": "next dev"
+     },
+
+
+4- Criar pasta "pages" com o arquivo index.js
+dentro do arquivo index.js inserir o código desejado
+após fazer as alterações subir no git hub
+
+
+
+5- Subindo arquivos novos no github:
+git status
+git add -A
+git commit -m 'comentários'
+git push origin main
+
+6- Conectar com a conta da Vercel para atualização automática online
